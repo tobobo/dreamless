@@ -1,0 +1,17 @@
+{
+    "name": "Dreamless",
+    "version": "0.1",
+
+
+    "content_scripts": [
+        {
+            "matches": ["http://treefort54.com/*"],
+            "js": [
+                    "/js/dreamless.js"
+                ],
+            "run_at": "document_end"
+        }
+    ],
+
+    "manifest_version": 2
+}
